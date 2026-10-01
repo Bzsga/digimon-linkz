@@ -1,0 +1,577 @@
+{
+  "provenance": "Original FieldData_01 and FarmObject prefab serialized values; no assets modified.",
+  "fields": [
+    {
+      "width": 24,
+      "height": 32,
+      "invalid": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        31,
+        32,
+        33,
+        34,
+        35,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        56,
+        57,
+        58,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        142,
+        143,
+        144,
+        145,
+        166,
+        167,
+        168,
+        190,
+        191,
+        192,
+        215,
+        216,
+        217,
+        239,
+        240,
+        241,
+        263,
+        264,
+        265,
+        266,
+        287,
+        288,
+        289,
+        290,
+        311,
+        312,
+        313,
+        314,
+        335,
+        336,
+        337,
+        338,
+        358,
+        359,
+        360,
+        361,
+        362,
+        382,
+        383,
+        384,
+        385,
+        386,
+        406,
+        407,
+        408,
+        409,
+        410,
+        430,
+        431,
+        432,
+        433,
+        434,
+        455,
+        456,
+        457,
+        458,
+        479,
+        480,
+        481,
+        503,
+        504,
+        505,
+        527,
+        528,
+        529,
+        530,
+        551,
+        552,
+        553,
+        554,
+        574,
+        575,
+        576,
+        577,
+        578,
+        598,
+        599,
+        600,
+        601,
+        602,
+        622,
+        623,
+        624,
+        625,
+        626,
+        627,
+        646,
+        647,
+        648,
+        649,
+        650,
+        651,
+        652,
+        670,
+        671,
+        672,
+        673,
+        674,
+        675,
+        676,
+        677,
+        678,
+        693,
+        694,
+        695,
+        696,
+        697,
+        698,
+        699,
+        700,
+        701,
+        702,
+        703,
+        716,
+        717,
+        718,
+        719,
+        720,
+        721,
+        722,
+        723,
+        724,
+        725,
+        726,
+        727,
+        728,
+        732,
+        733,
+        734,
+        739,
+        740,
+        741,
+        742,
+        743,
+        744,
+        745,
+        746,
+        747,
+        748,
+        749,
+        750,
+        751,
+        752,
+        753,
+        754,
+        755,
+        756,
+        757,
+        758,
+        759,
+        760,
+        761,
+        762,
+        763,
+        764,
+        765,
+        766,
+        767
+      ]
+    }
+  ],
+  "footprints": {
+    "1": {
+      "sizeX": 3,
+      "sizeY": 2,
+      "baseGridPositionX": 1,
+      "baseGridPositionY": 1
+    },
+    "2": {
+      "sizeX": 4,
+      "sizeY": 4,
+      "baseGridPositionX": 2,
+      "baseGridPositionY": 2
+    },
+    "3": {
+      "sizeX": 4,
+      "sizeY": 4,
+      "baseGridPositionX": 2,
+      "baseGridPositionY": 2
+    },
+    "4": {
+      "sizeX": 4,
+      "sizeY": 6,
+      "baseGridPositionX": 2,
+      "baseGridPositionY": 3
+    },
+    "5": {
+      "sizeX": 4,
+      "sizeY": 7,
+      "baseGridPositionX": 2,
+      "baseGridPositionY": 3
+    },
+    "6": {
+      "sizeX": 4,
+      "sizeY": 7,
+      "baseGridPositionX": 2,
+      "baseGridPositionY": 3
+    },
+    "7": {
+      "sizeX": 4,
+      "sizeY": 4,
+      "baseGridPositionX": 2,
+      "baseGridPositionY": 2
+    },
+    "9": {
+      "sizeX": 1,
+      "sizeY": 1,
+      "baseGridPositionX": 0,
+      "baseGridPositionY": 0
+    },
+    "10": {
+      "sizeX": 2,
+      "sizeY": 2,
+      "baseGridPositionX": 1,
+      "baseGridPositionY": 1
+    },
+    "11": {
+      "sizeX": 1,
+      "sizeY": 1,
+      "baseGridPositionX": 0,
+      "baseGridPositionY": 0
+    },
+    "12": {
+      "sizeX": 1,
+      "sizeY": 1,
+      "baseGridPositionX": 0,
+      "baseGridPositionY": 0
+    },
+    "13": {
+      "sizeX": 3,
+      "sizeY": 1,
+      "baseGridPositionX": 1,
+      "baseGridPositionY": 0
+    },
+    "14": {
+      "sizeX": 1,
+      "sizeY": 3,
+      "baseGridPositionX": 0,
+      "baseGridPositionY": 1
+    },
+    "15": {
+      "sizeX": 1,
+      "sizeY": 1,
+      "baseGridPositionX": 0,
+      "baseGridPositionY": 0
+    },
+    "16": {
+      "sizeX": 6,
+      "sizeY": 2,
+      "baseGridPositionX": 3,
+      "baseGridPositionY": 1
+    },
+    "17": {
+      "sizeX": 1,
+      "sizeY": 1,
+      "baseGridPositionX": 0,
+      "baseGridPositionY": 0
+    },
+    "18": {
+      "sizeX": 1,
+      "sizeY": 1,
+      "baseGridPositionX": 0,
+      "baseGridPositionY": 0
+    },
+    "19": {
+      "sizeX": 1,
+      "sizeY": 1,
+      "baseGridPositionX": 0,
+      "baseGridPositionY": 0
+    },
+    "20": {
+      "sizeX": 1,
+      "sizeY": 1,
+      "baseGridPositionX": 0,
+      "baseGridPositionY": 0
+    },
+    "21": {
+      "sizeX": 2,
+      "sizeY": 1,
+      "baseGridPositionX": 1,
+      "baseGridPositionY": 0
+    },
+    "22": {
+      "sizeX": 4,
+      "sizeY": 4,
+      "baseGridPositionX": 2,
+      "baseGridPositionY": 2
+    },
+    "24": {
+      "sizeX": 2,
+      "sizeY": 1,
+      "baseGridPositionX": 0,
+      "baseGridPositionY": 0
+    },
+    "25": {
+      "sizeX": 4,
+      "sizeY": 4,
+      "baseGridPositionX": 2,
+      "baseGridPositionY": 2
+    },
+    "26": {
+      "sizeX": 1,
+      "sizeY": 1,
+      "baseGridPositionX": 0,
+      "baseGridPositionY": 0
+    },
+    "27": {
+      "sizeX": 2,
+      "sizeY": 1,
+      "baseGridPositionX": 1,
+      "baseGridPositionY": 0
+    },
+    "28": {
+      "sizeX": 3,
+      "sizeY": 2,
+      "baseGridPositionX": 1,
+      "baseGridPositionY": 1
+    },
+    "29": {
+      "sizeX": 3,
+      "sizeY": 3,
+      "baseGridPositionX": 1,
+      "baseGridPositionY": 1
+    },
+    "30": {
+      "sizeX": 3,
+      "sizeY": 3,
+      "baseGridPositionX": 1,
+      "baseGridPositionY": 1
+    },
+    "31": {
+      "sizeX": 3,
+      "sizeY": 3,
+      "baseGridPositionX": 1,
+      "baseGridPositionY": 1
+    },
+    "32": {
+      "sizeX": 3,
+      "sizeY": 3,
+      "baseGridPositionX": 1,
+      "baseGridPositionY": 1
+    },
+    "33": {
+      "sizeX": 4,
+      "sizeY": 4,
+      "baseGridPositionX": 2,
+      "baseGridPositionY": 2
+    },
+    "34": {
+      "sizeX": 1,
+      "sizeY": 1,
+      "baseGridPositionX": 0,
+      "baseGridPositionY": 0
+    },
+    "35": {
+      "sizeX": 2,
+      "sizeY": 2,
+      "baseGridPositionX": 1,
+      "baseGridPositionY": 1
+    }
+  },
+  "sources": [
+    {
+      "path": "assets-restored-all\\AB_DATA\\ANDROID\\2.6.0\\Farm\\Fields\\Farm_Fields_0000_AS.unity3d",
+      "sha256": "a0910a77703aae5cca426c59e9b8175ac60f663b6e8dda71a45514ddc0ff35c6"
+    },
+    {
+      "path": "assets-restored-all\\AB_DATA\\ANDROID\\2.6.0\\Farm\\Builds\\Farm_Builds_0027_GO.unity3d",
+      "sha256": "c71b950db18eb0de72cac8ba3a4056b8a0335b5867a3401080fa25adfd4ed25d"
+    },
+    {
+      "path": "assets-restored-all\\AB_DATA\\ANDROID\\2.6.0\\Farm\\Builds\\Farm_Builds_0028_GO.unity3d",
+      "sha256": "21ea482fda36f4c3d04890e1763694eab7d42731181997ba71bd217e12399c67"
+    },
+    {
+      "path": "assets-restored-all\\AB_DATA\\ANDROID\\2.6.0\\Farm\\Builds\\Farm_Builds_0030_GO.unity3d",
+      "sha256": "ef40bd54af85586b6f04451d948a5b5a4c8703dff317201a939204921f8b47e9"
+    },
+    {
+      "path": "assets-restored-all\\AB_DATA\\ANDROID\\2.6.0\\Farm\\Builds\\Farm_Builds_0033_GO.unity3d",
+      "sha256": "2ff30830904a282bc6fc5275db9c83e34a5c2dd83bb3f90665b807ab945a0827"
+    },
+    {
+      "path": "assets-restored-all\\AB_DATA\\ANDROID\\2.6.0\\Farm\\Builds\\Farm_Builds_0031_GO.unity3d",
+      "sha256": "d93857ed4d224ceb91a0352a7e5c30b4111e9f24477ce360d3bada7ba49f2435"
+    },
+    {
+      "path": "assets-restored-all\\AB_DATA\\ANDROID\\2.6.0\\Farm\\Builds\\Farm_Builds_0031_GO.unity3d",
+      "sha256": "d93857ed4d224ceb91a0352a7e5c30b4111e9f24477ce360d3bada7ba49f2435"
+    },
+    {
+      "path": "assets-restored-all\\AB_DATA\\ANDROID\\2.6.0\\Farm\\Builds\\Farm_Builds_0032_GO.unity3d",
+      "sha256": "c5993aea6c2ffe9291d91d9fab45a5fff53151decca03e4e7b16f824773c05f4"
+    },
+    {
+      "path": "assets-restored-all\\AB_DATA\\ANDROID\\2.6.0\\Farm\\Builds\\Farm_Builds_0036_GO.unity3d",
+      "sha256": "60599aa08a4ce93de71565dc6e56cbae10db21fa6ce4ac9c39274f933359054b"
+    },
+    {
+      "path": "assets-restored-all\\AB_DATA\\ANDROID\\2.6.0\\Farm\\Builds\\Farm_Builds_0037_GO.unity3d",
+      "sha256": "b9592acc5c667e9c0467b38fedceefbbcf6225d6b4ef9b3100e9b456e63275a2"
+    },
+    {
+      "path": "assets-restored-all\\AB_DATA\\ANDROID\\2.6.0\\Farm\\Builds\\Farm_Builds_0040_GO.unity3d",
+      "sha256": "51077c7e09ee8ad589a5a97b366cf4cbcbccd757fc332c3e0d9145ffc2e388d1"
+    },
+    {
+      "path": "assets-restored-all\\AB_DATA\\ANDROID\\2.6.0\\Farm\\Builds\\Farm_Builds_0041_GO.unity3d",
+      "sha256": "93c452cea2708e18aa995d8918d9645cfefef5359d45a041d5d96305aba966c1"
+    },
+    {
+      "path": "assets-restored-all\\AB_DATA\\ANDROID\\2.6.0\\Farm\\Builds\\Farm_Builds_0042_GO.unity3d",
+      "sha256": "48fb14d9d245418d286a6fe9d59efc2bdd93fd248419385d972c0ff9ab43f96d"
+    },
+    {
+      "path": "assets-restored-all\\AB_DATA\\ANDROID\\2.6.0\\Farm\\Builds\\Farm_Builds_0047_GO.unity3d",
+      "sha256": "a29d167216fa3b98ea68dd3007bf8505f05c5d0605d97864e19e93b79517fd0e"
+    },
+    {
+      "path": "assets-restored-all\\AB_DATA\\ANDROID\\2.6.0\\Farm\\Builds\\Farm_Builds_0043_GO.unity3d",
+      "sha256": "791446577cb6e964f64c11bc8a698508fbf50cc1a91961ce4418b8cef6882cc9"
+    },
+    {
+      "path": "assets-restored-all\\AB_DATA\\ANDROID\\2.6.0\\Farm\\Builds\\Farm_Builds_0044_GO.unity3d",
+      "sha256": "8a8b5dc7297af1b463fb9ae2641a46caa68e95f87d5aeb657d0833a8f75e797a"
+    },
+    {
+      "path": "assets-restored-all\\AB_DATA\\ANDROID\\2.6.0\\Farm\\Builds\\Farm_Builds_0045_GO.unity3d",
+      "sha256": "4f4e2a49f87516dbef97477123f70ebe1622ba43741325dd3f5fff167bc9b610"
+    },
+    {
+      "path": "assets-restored-all\\AB_DATA\\ANDROID\\2.6.0\\Farm\\Builds\\Farm_Builds_0046_GO.unity3d",
+      "sha256": "a41627d527581f02496350b56034c40fd38e9f009bac497c795221c8ce13c9ef"
+    },
+    {
+      "path": "assets-restored-all\\AB_DATA\\ANDROID\\2.6.0\\Farm\\Builds\\Farm_Builds_0038_GO.unity3d",
+      "sha256": "5316fb32609fdb7b79896931b85826a5c5a5d6f61ac5bd1c02112e8cbf7f74dd"
+    },
+    {
+      "path": "assets-restored-all\\AB_DATA\\ANDROID\\2.6.0\\Farm\\Builds\\Farm_Builds_0039_GO.unity3d",
+      "sha256": "ac8cff07f01ee34eb437492f2fe5d8777d00934d24c32a2bb204eefa6daad4a8"
+    },
+    {
+      "path": "assets-restored-all\\AB_DATA\\ANDROID\\2.6.0\\Farm\\Builds\\Farm_Builds_0029_GO.unity3d",
+      "sha256": "73ab13c9d12e15221cb554b28b5b8d3697eb8ee2a4e9f2400bebed2e9214a287"
+    },
+    {
+      "path": "assets-restored-all\\AB_DATA\\ANDROID\\2.6.0\\Farm\\Builds\\Farm_Builds_0035_GO.unity3d",
+      "sha256": "8a1eed99751c5f23fb6924b156188b812e10e5d7cfadda5319b7901ff771eef5"
+    },
+    {
+      "path": "assets-restored-all\\AB_DATA\\ANDROID\\2.6.0\\Farm\\Builds\\Farm_Builds_0048_GO.unity3d",
+      "sha256": "5c58e285950b4d60d28a215c79c423f9c9c0a6717589432feea496ea8449ca03"
+    },
+    {
+      "path": "assets-restored-all\\AB_DATA\\ANDROID\\2.6.0\\Farm\\Builds\\Farm_Builds_0034_GO.unity3d",
+      "sha256": "4df459e8feab5e85dcfac018a71909dc12fc64f1229293c7f2bf58805285bdbb"
+    },
+    {
+      "path": "assets-restored-all\\AB_DATA\\ANDROID\\2.6.0\\Farm\\Builds\\Farm_Builds_0004_GO.unity3d",
+      "sha256": "6b8577988fc01f6cc4082780d900260feffadd8e7d30e5dc44d72bef5f2fabaf"
+    },
+    {
+      "path": "assets-restored-all\\AB_DATA\\ANDROID\\2.6.0\\Farm\\Builds\\Farm_Builds_0007_GO.unity3d",
+      "sha256": "350a4591fddb6db0a5937993a1e4af692f8e5a76b738163cdfc545370fc66a6c"
+    },
+    {
+      "path": "assets-restored-all\\AB_DATA\\ANDROID\\2.6.0\\Farm\\Builds\\Farm_Builds_0005_GO.unity3d",
+      "sha256": "578f3dfaa2f9544ad68d270516aeeeb8756151882783d4ef65c40af29a9bbc99"
+    },
+    {
+      "path": "assets-restored-all\\AB_DATA\\ANDROID\\2.6.0\\Farm\\Builds\\Farm_Builds_0006_GO.unity3d",
+      "sha256": "a5b410981bd736a98caf7f0ca1a0979b1bf1ef5241895335726bd95f618cfcd3"
+    },
+    {
+      "path": "assets-restored-all\\AB_DATA\\ANDROID\\2.6.0\\Farm\\Builds\\Farm_Builds_0003_GO.unity3d",
+      "sha256": "5afeb769e4843eb914594b57ff8e0c845f4a8523469058c536e7d509c62e893a"
+    },
+    {
+      "path": "assets-restored-all\\AB_DATA\\ANDROID\\2.6.0\\Farm\\Builds\\Farm_Builds_0000_GO.unity3d",
+      "sha256": "6c58cf4d79b98f733ce756b39bce41f9b23482a5ef9c5848669149361274e1cc"
+    },
+    {
+      "path": "assets-restored-all\\AB_DATA\\ANDROID\\2.6.0\\Farm\\Builds\\Farm_Builds_0001_GO.unity3d",
+      "sha256": "5956f803c2cf653d914c97c4e3920e8f327b67a9c75ca1004b69ab50efe847d2"
+    },
+    {
+      "path": "assets-restored-all\\AB_DATA\\ANDROID\\2.6.0\\Farm\\Builds\\Farm_Builds_0002_GO.unity3d",
+      "sha256": "84b30c3f9a2c929d85d64a316985dc807e7a5d4524ef466e8a787b3f224a6bc6"
+    },
+    {
+      "path": "assets-restored-all\\AB_DATA\\ANDROID\\2.6.0\\Farm\\Builds\\Farm_Builds_0049_GO.unity3d",
+      "sha256": "d30174416d7f5de858882a8b4184876e62bed1ec0862e06e1c8aeee87bbfc834"
+    },
+    {
+      "path": "assets-restored-all\\AB_DATA\\ANDROID\\2.6.0\\Farm\\Builds\\Farm_Builds_0050_GO.unity3d",
+      "sha256": "cdcad8a6572773d605ec76d7f858ecc06168c4f629aa561732d7c189340144de"
+    }
+  ]
+}

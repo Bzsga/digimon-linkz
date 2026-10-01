@@ -1,0 +1,155 @@
+{
+  "basis": "Local reconstruction choices; original server timing and shortening prices were not recovered.",
+  "garden": {
+    "growthSeconds": {
+      "2": 3600,
+      "3": 10800
+    },
+    "shorteningHoursPerStone": {
+      "2": 1,
+      "3": 1
+    }
+  },
+  "friendship": {
+    "cooldownSeconds": 86400,
+    "gainPerTap": 1,
+    "basis": "Original help 991002 limits farm friendship to once per monster per day. Local reconstruction uses a rolling 24-hour cooldown and +1 per tap; the original reset timezone and exact gain were not recovered. Farm cooldown is independent of battle friendship."
+  },
+  "battleFriendship": {
+    "probabilityBasisPoints": 3000,
+    "gainOnSuccess": 1,
+    "basis": "Original help5 confirms friendship can rise after winning. Original server chance and gain were not recovered. Local ordinary victories independently give each surviving monster a30% chance of +1, capped by original growth-step maxFriendship. Rules are snapshotted at battle entry; old battles without this snapshot and the tutorial remain unchanged. No farm cooldown is consumed."
+  },
+  "captureTalents": {
+    "probabilityBasisPoints": {
+      "none": 9000,
+      "silver": 900,
+      "gold": 100
+    },
+    "basis": "Original help7 describes rare naturally talented monsters; original production acquisition odds were not recovered. Local normal growth and Link captures independently yield no medal90%, silver-I9%, or gold-I1%, with one uniformly selected stat and minimum tier5/15. Tutorial and fixed rewards are unchanged. Ten pulls have no extra guarantee."
+  },
+  "research": {
+    "basis": "Two ultimate monsters, fee, friendship awakening, base inheritance and version reset follow CMD_Laboratory and help47. Known birth route family is retained and mapped to the offspring awakening. Unknown birth routes are rejected. New unique-skill subtype uses the existing local creation default1; no original random subtype rule was recovered. Eggs are immediately hatchable; hatching starts the local childhood-I garden timer without extra money or stones."
+  },
+  "resistanceChange": {
+    "attributeResistanceIds": [
+      "915",
+      "916",
+      "917",
+      "918",
+      "919",
+      "920",
+      "921"
+    ],
+    "statusResistanceIds": [
+      "40001",
+      "40002",
+      "40003",
+      "40004",
+      "40005",
+      "40006",
+      "40007"
+    ],
+    "selectionPolicy": "uniform_excluding_innate_resistant",
+    "basis": "Original help45 adds one random resistance and replaces the previous addition on another change. Native CMD_ArousalTOP uses same-name material monsters when990113 has no entry, otherwise self-ID and990113 materials; a single fragment entry also uses990114 tribe/growth materials, multi-entry special forms use only990113. Status changes require version monsters and990120/990121. No coin/stone cost was found. Original random weights were not recovered: local uniformly chooses one original single-positive resistance row excluding intrinsic resistant/immune fields. Ordinary consumed-partner receipts survive reauthentication; self-material changes have only same-session request deduplication because a new request cannot distinguish retry from a deliberately paid reroll. Evolution carries additions and rerolls only intrinsic collisions per help45."
+  },
+  "talentInheritance": {
+    "goldOverflowPolicy": "uniform_among_successful_new_gold",
+    "basis": "Rates, growth multipliers, gold cap, minimum silver guarantee and float32 fee follow AbilityData, CMD_MedalInherit and original masters. Original server gold-overflow tie-breaking was not recovered: local rolls each stat, uniformly retains successful new gold up to remaining capacity, and gives overflow its failure fallback. No campaign multiplier is fabricated."
+  },
+  "fusion": {
+    "luckGainOnSuccess": 1,
+    "normalFusionType": 1,
+    "basis": "Experience, cost and highest matching-tribe luck odds (7/20/50/100%) follow CMD_ReinforcementTOP and master tables. Local success adds one luck, capped at master maxLuck. Original luck gain and any great-success odds were not recovered; no great-success or live campaign bonuses are fabricated."
+  },
+  "versionUpgrade": {
+    "basis": "Original010802 int baseUserMonsterId/target and int[] material, type3/effect5 routes, original7-slot recipe and soulGroup3/priority2 updater substitutions; fixed135000 coins from EvolutionData.CalcClusterForVersionUp. Same-form rare5 ultimate ->rare6 only; core/hull group conversions remain unsupported. Native client removes old owned ID and chip slots. Local carryover retains earned EXP/level, birth route, first inherited skill, leader skill, talent, luck, friendship and farm cooldown; new second inherited slot starts empty, attached chips return unequipped to inventory, new chip capacity follows growth/awakening free slots and local5 paid extra slots initially unopened. Original server carryover was not recovered. Consumed old ID gives durable operation receipt; retries return current upgraded object and refuse after it is consumed."
+  },
+  "chips": {
+    "gachaId": 10003,
+    "linkCostPerChip": 100,
+    "gachaChipIds": [
+      1,
+      11,
+      21,
+      31,
+      41,
+      51
+    ],
+    "basis": "Local100 Link points per chip, equal six original G-rank basic stat chips; native050012 one/ten count. Original pool/prices/odds not recovered. First-clear dungeon12 supplies original factory key11; native factory25 costs100 coins and explicit140010 completion raises inventory100(local starting capacity) ->300(original level1). Original levelUpFlg0 kept; higher factory levels not exposed. Six original families48 G..S chips only; other chips rejected. Fixed unconditional Usually stat bonuses are projected onto responses after existing level/talent/friendship stats without persisting additions; client Usually deliberately skips adding six stats. Original server chip/talent/friendship ordering not recovered: local adds fixed chip bonuses after existing plain stats. Battle entry snapshots chips/slots/projected stats and chip mutations blocked until settlement. Free slots use original growth scopes and awakening2/4; local total5free+5extra capacity, original species-specific paid maxima not recovered; paid extras1..5 cost original item6 counts1/5/10/20/40. Removal uses item7x1; replacement frees old chip without removal patch per native ATTACH handler. Same chipId limited by original multiNum; different ranks may coexist. Fusion consumes exact original needChip same-ID unequipped materials, keeps owned base ID and advances next rank; max S rejected even though needChip remains3. Sale rankx100 coins, refuses overflow; original patch recovery odds not recovered so itemRecovered0. New daily tasks provide item7x1 after1 normal win,item6x5 after3,chip1x1 after5; thresholds/rewards are local. Gift types6/17 validate capacity and IDs, whole gift deferred when full. Transport retry caches plus live equipment no-op handling; reauthenticated deliberate opposite equipment actions cannot be distinguished from very late retries, inspect current inventory before confirming. Durable consumed-chip fusion/sale receipts prevent duplicate payments and refuse revival; gacha deliberately repeatable after new requests (only same-session identical request IDs deduplicate).",
+    "advancedGacha": {
+      "gachaId": 10004,
+      "dispNum": 10000,
+      "unlockDungeonId": 83,
+      "linkCostPerChip": 1000,
+      "rankWeightsBasisPoints": {
+        "2": 2000,
+        "3": 2000,
+        "4": 2000,
+        "5": 1500,
+        "6": 1500,
+        "7": 900,
+        "8": 100
+      },
+      "chipIdsByRank": {
+        "2": [
+          2,
+          12,
+          22,
+          32,
+          42,
+          52
+        ],
+        "3": [
+          3,
+          13,
+          23,
+          33,
+          43,
+          53
+        ],
+        "4": [
+          4,
+          14,
+          24,
+          34,
+          44,
+          54
+        ],
+        "5": [
+          5,
+          15,
+          25,
+          35,
+          45,
+          55
+        ],
+        "6": [
+          6,
+          16,
+          26,
+          36,
+          46,
+          56
+        ],
+        "7": [
+          7,
+          17,
+          27,
+          37,
+          47,
+          57
+        ],
+        "8": [
+          8,
+          18,
+          28,
+          38,
+          48,
+          58
+        ]
+      },
+      "basis": "Explicit local post-world83 catch-up pool, not recovered original price/pool/odds. Completed factory required;1000 Link each, one/ten draws. F/E/D20% each,C/B15% each,A9%,S1%; independently choose one of six original basic families equally. No ten-pull guarantee. Keep G-only100-Link pool and original fusion counts unchanged; only48 original unconditional basic chips, no special/event effects. Normal existing chip cutscene effectType1 reused; actual selection/rarity presentation/combat still deferred. dispNum10000 puts this after existing ordinary choices under native descending sort."
+    }
+  }
+}

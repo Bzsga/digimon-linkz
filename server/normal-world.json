@@ -1,0 +1,2249 @@
+{
+  "provenance": "Local reconstruction of all 83 original normal-world encounters. Original master supplies dungeon order, prerequisites, stamina, wave count, environments and first-clear rewards. Existing dungeons1..9 retain rosters/quantities; dropBoxType corrected to native1 normal (legacy0 emitted a warning). New dungeons10..83 use authored thematic rosters and gradual levels; deterministic renewable drops cover28 standard plugins and128 original data fragments. Each wave drops every listed item once, normal boxes1/plugins and rare boxes2/fragments. Not recovered production encounters, odds or balance; game difficulty remains unverified. Offline polish batch14 adds original soul IDs4000001..4000007 updaters and5000001..5000007 refactors to late ordinary dungeons70..76, corresponding neutral/fire/water/thunder/nature/light/dark, plus almighty updater4000008 to83. Each added material is1 per wave (3 per full win), box2. These are explicit LOCAL renewable replacements for unreconstructed original event sources; existing encounter/reward quantities retained, core/hull updaters4000009/4000010 remain unavailable. Acquisition rate and combat difficulty are not recovered original balance or game-verified.",
+  "dungeons": {
+    "1": {
+      "enemyMonsterIds": [
+        "151"
+      ],
+      "fixedExpPerEnemy": 10,
+      "fixedMoneyPerEnemy": 30,
+      "materialPerWave": {
+        "assetCategoryId": "14",
+        "assetValue": 2010001,
+        "assetNum": 1,
+        "dropBoxType": 1
+      }
+    },
+    "2": {
+      "enemyMonsterIds": [
+        "151",
+        "151"
+      ],
+      "fixedExpPerEnemy": 10,
+      "fixedMoneyPerEnemy": 30,
+      "materialPerWave": {
+        "assetCategoryId": "14",
+        "assetValue": 2010002,
+        "assetNum": 1,
+        "dropBoxType": 1
+      }
+    },
+    "3": {
+      "enemyMonsterIds": [
+        "151",
+        "151",
+        "151"
+      ],
+      "fixedExpPerEnemy": 15,
+      "fixedMoneyPerEnemy": 40
+    },
+    "4": {
+      "enemyMonsterIds": [
+        "81",
+        "151"
+      ],
+      "enemyLevel": 2,
+      "fixedExpPerEnemy": 20,
+      "fixedMoneyPerEnemy": 50,
+      "materialPerWave": {
+        "assetCategoryId": "14",
+        "assetValue": 2010002,
+        "assetNum": 2,
+        "dropBoxType": 1
+      }
+    },
+    "5": {
+      "enemyMonsterIds": [
+        "121",
+        "151"
+      ],
+      "enemyLevel": 2,
+      "fixedExpPerEnemy": 20,
+      "fixedMoneyPerEnemy": 50,
+      "materialPerWave": {
+        "assetCategoryId": "14",
+        "assetValue": 2010001,
+        "assetNum": 2,
+        "dropBoxType": 1
+      }
+    },
+    "6": {
+      "enemyMonsterIds": [
+        "176",
+        "196",
+        "151"
+      ],
+      "enemyLevel": 2,
+      "fixedExpPerEnemy": 20,
+      "fixedMoneyPerEnemy": 50,
+      "materialPerWave": {
+        "assetCategoryId": "14",
+        "assetValue": 2010002,
+        "assetNum": 2,
+        "dropBoxType": 1
+      }
+    },
+    "7": {
+      "enemyMonsterIds": [
+        "81",
+        "121"
+      ],
+      "enemyLevel": 4,
+      "fixedExpPerEnemy": 25,
+      "fixedMoneyPerEnemy": 60,
+      "materialPerWave": {
+        "assetCategoryId": "14",
+        "assetValue": 2010001,
+        "assetNum": 2,
+        "dropBoxType": 1
+      }
+    },
+    "8": {
+      "enemyMonsterIds": [
+        "176",
+        "196"
+      ],
+      "enemyLevel": 4,
+      "fixedExpPerEnemy": 25,
+      "fixedMoneyPerEnemy": 60,
+      "materialPerWave": {
+        "assetCategoryId": "14",
+        "assetValue": 2010002,
+        "assetNum": 2,
+        "dropBoxType": 1
+      }
+    },
+    "9": {
+      "enemyMonsterIds": [
+        "81",
+        "176",
+        "196"
+      ],
+      "enemyLevel": 4,
+      "fixedExpPerEnemy": 25,
+      "fixedMoneyPerEnemy": 60,
+      "materialPerWave": {
+        "assetCategoryId": "14",
+        "assetValue": 2010001,
+        "assetNum": 2,
+        "dropBoxType": 1
+      }
+    },
+    "10": {
+      "enemyMonsterIds": [
+        "236",
+        "156"
+      ],
+      "enemyLevel": 6,
+      "fixedExpPerEnemy": 30,
+      "fixedMoneyPerEnemy": 70,
+      "materialsPerWave": [
+        {
+          "assetCategoryId": "14",
+          "assetValue": 2010003,
+          "assetNum": 2,
+          "dropBoxType": 1
+        }
+      ]
+    },
+    "11": {
+      "enemyMonsterIds": [
+        "236",
+        "156"
+      ],
+      "enemyLevel": 6,
+      "fixedExpPerEnemy": 30,
+      "fixedMoneyPerEnemy": 70,
+      "materialsPerWave": [
+        {
+          "assetCategoryId": "14",
+          "assetValue": 2010004,
+          "assetNum": 2,
+          "dropBoxType": 1
+        }
+      ]
+    },
+    "12": {
+      "enemyMonsterIds": [
+        "156",
+        "291"
+      ],
+      "enemyLevel": 6,
+      "fixedExpPerEnemy": 30,
+      "fixedMoneyPerEnemy": 70,
+      "materialsPerWave": [
+        {
+          "assetCategoryId": "14",
+          "assetValue": 2000001,
+          "assetNum": 3,
+          "dropBoxType": 1
+        }
+      ]
+    },
+    "13": {
+      "enemyMonsterIds": [
+        "191",
+        "316"
+      ],
+      "enemyLevel": 7,
+      "fixedExpPerEnemy": 40,
+      "fixedMoneyPerEnemy": 85,
+      "materialsPerWave": [
+        {
+          "assetCategoryId": "14",
+          "assetValue": 2000002,
+          "assetNum": 3,
+          "dropBoxType": 1
+        }
+      ]
+    },
+    "14": {
+      "enemyMonsterIds": [
+        "191",
+        "316"
+      ],
+      "enemyLevel": 7,
+      "fixedExpPerEnemy": 40,
+      "fixedMoneyPerEnemy": 85,
+      "materialsPerWave": [
+        {
+          "assetCategoryId": "14",
+          "assetValue": 2000003,
+          "assetNum": 3,
+          "dropBoxType": 1
+        }
+      ]
+    },
+    "15": {
+      "enemyMonsterIds": [
+        "191",
+        "316"
+      ],
+      "enemyLevel": 7,
+      "fixedExpPerEnemy": 40,
+      "fixedMoneyPerEnemy": 85,
+      "materialsPerWave": [
+        {
+          "assetCategoryId": "14",
+          "assetValue": 2000004,
+          "assetNum": 3,
+          "dropBoxType": 1
+        }
+      ]
+    },
+    "16": {
+      "enemyMonsterIds": [
+        "316",
+        "441"
+      ],
+      "enemyLevel": 7,
+      "fixedExpPerEnemy": 40,
+      "fixedMoneyPerEnemy": 85,
+      "materialsPerWave": [
+        {
+          "assetCategoryId": "14",
+          "assetValue": 2010001,
+          "assetNum": 3,
+          "dropBoxType": 1
+        }
+      ]
+    },
+    "17": {
+      "enemyMonsterIds": [
+        "206",
+        "506"
+      ],
+      "enemyLevel": 8,
+      "fixedExpPerEnemy": 50,
+      "fixedMoneyPerEnemy": 100,
+      "materialsPerWave": [
+        {
+          "assetCategoryId": "14",
+          "assetValue": 2010002,
+          "assetNum": 3,
+          "dropBoxType": 1
+        }
+      ]
+    },
+    "18": {
+      "enemyMonsterIds": [
+        "206",
+        "506"
+      ],
+      "enemyLevel": 8,
+      "fixedExpPerEnemy": 50,
+      "fixedMoneyPerEnemy": 100,
+      "materialsPerWave": [
+        {
+          "assetCategoryId": "14",
+          "assetValue": 2020001,
+          "assetNum": 3,
+          "dropBoxType": 1
+        }
+      ]
+    },
+    "19": {
+      "enemyMonsterIds": [
+        "206",
+        "506"
+      ],
+      "enemyLevel": 8,
+      "fixedExpPerEnemy": 50,
+      "fixedMoneyPerEnemy": 100,
+      "materialsPerWave": [
+        {
+          "assetCategoryId": "14",
+          "assetValue": 2020002,
+          "assetNum": 3,
+          "dropBoxType": 1
+        }
+      ]
+    },
+    "20": {
+      "enemyMonsterIds": [
+        "506",
+        "461"
+      ],
+      "enemyLevel": 8,
+      "fixedExpPerEnemy": 50,
+      "fixedMoneyPerEnemy": 100,
+      "materialsPerWave": [
+        {
+          "assetCategoryId": "14",
+          "assetValue": 2020003,
+          "assetNum": 3,
+          "dropBoxType": 1
+        }
+      ]
+    },
+    "21": {
+      "enemyMonsterIds": [
+        "166",
+        "146"
+      ],
+      "enemyLevel": 9,
+      "fixedExpPerEnemy": 60,
+      "fixedMoneyPerEnemy": 115,
+      "materialsPerWave": [
+        {
+          "assetCategoryId": "14",
+          "assetValue": 2020004,
+          "assetNum": 3,
+          "dropBoxType": 1
+        }
+      ]
+    },
+    "22": {
+      "enemyMonsterIds": [
+        "166",
+        "146"
+      ],
+      "enemyLevel": 9,
+      "fixedExpPerEnemy": 60,
+      "fixedMoneyPerEnemy": 115,
+      "materialsPerWave": [
+        {
+          "assetCategoryId": "14",
+          "assetValue": 2030001,
+          "assetNum": 3,
+          "dropBoxType": 1
+        }
+      ]
+    },
+    "23": {
+      "enemyMonsterIds": [
+        "166",
+        "146"
+      ],
+      "enemyLevel": 9,
+      "fixedExpPerEnemy": 60,
+      "fixedMoneyPerEnemy": 115,
+      "materialsPerWave": [
+        {
+          "assetCategoryId": "14",
+          "assetValue": 2030002,
+          "assetNum": 3,
+          "dropBoxType": 1
+        }
+      ]
+    },
+    "24": {
+      "enemyMonsterIds": [
+        "146",
+        "516"
+      ],
+      "enemyLevel": 9,
+      "fixedExpPerEnemy": 60,
+      "fixedMoneyPerEnemy": 115,
+      "materialsPerWave": [
+        {
+          "assetCategoryId": "14",
+          "assetValue": 2030003,
+          "assetNum": 3,
+          "dropBoxType": 1
+        }
+      ]
+    },
+    "25": {
+      "enemyMonsterIds": [
+        "161",
+        "386"
+      ],
+      "enemyLevel": 10,
+      "fixedExpPerEnemy": 70,
+      "fixedMoneyPerEnemy": 130,
+      "materialsPerWave": [
+        {
+          "assetCategoryId": "14",
+          "assetValue": 2030004,
+          "assetNum": 3,
+          "dropBoxType": 1
+        }
+      ]
+    },
+    "26": {
+      "enemyMonsterIds": [
+        "161",
+        "386"
+      ],
+      "enemyLevel": 10,
+      "fixedExpPerEnemy": 70,
+      "fixedMoneyPerEnemy": 130,
+      "materialsPerWave": [
+        {
+          "assetCategoryId": "14",
+          "assetValue": 2040001,
+          "assetNum": 3,
+          "dropBoxType": 1
+        }
+      ]
+    },
+    "27": {
+      "enemyMonsterIds": [
+        "161",
+        "386"
+      ],
+      "enemyLevel": 10,
+      "fixedExpPerEnemy": 70,
+      "fixedMoneyPerEnemy": 130,
+      "materialsPerWave": [
+        {
+          "assetCategoryId": "14",
+          "assetValue": 2040002,
+          "assetNum": 3,
+          "dropBoxType": 1
+        }
+      ]
+    },
+    "28": {
+      "enemyMonsterIds": [
+        "386",
+        "411"
+      ],
+      "enemyLevel": 10,
+      "fixedExpPerEnemy": 70,
+      "fixedMoneyPerEnemy": 130,
+      "materialsPerWave": [
+        {
+          "assetCategoryId": "14",
+          "assetValue": 2040003,
+          "assetNum": 3,
+          "dropBoxType": 1
+        }
+      ]
+    },
+    "29": {
+      "enemyMonsterIds": [
+        "316",
+        "376"
+      ],
+      "enemyLevel": 12,
+      "fixedExpPerEnemy": 80,
+      "fixedMoneyPerEnemy": 145,
+      "materialsPerWave": [
+        {
+          "assetCategoryId": "14",
+          "assetValue": 2040004,
+          "assetNum": 3,
+          "dropBoxType": 1
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070174,
+          "assetNum": 1,
+          "dropBoxType": 2
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070221,
+          "assetNum": 1,
+          "dropBoxType": 2
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070348,
+          "assetNum": 1,
+          "dropBoxType": 2
+        }
+      ]
+    },
+    "30": {
+      "enemyMonsterIds": [
+        "316",
+        "376"
+      ],
+      "enemyLevel": 12,
+      "fixedExpPerEnemy": 80,
+      "fixedMoneyPerEnemy": 145,
+      "materialsPerWave": [
+        {
+          "assetCategoryId": "14",
+          "assetValue": 2050001,
+          "assetNum": 3,
+          "dropBoxType": 1
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070177,
+          "assetNum": 1,
+          "dropBoxType": 2
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070223,
+          "assetNum": 1,
+          "dropBoxType": 2
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070349,
+          "assetNum": 1,
+          "dropBoxType": 2
+        }
+      ]
+    },
+    "31": {
+      "enemyMonsterIds": [
+        "316",
+        "376"
+      ],
+      "enemyLevel": 12,
+      "fixedExpPerEnemy": 80,
+      "fixedMoneyPerEnemy": 145,
+      "materialsPerWave": [
+        {
+          "assetCategoryId": "14",
+          "assetValue": 2050002,
+          "assetNum": 3,
+          "dropBoxType": 1
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070222,
+          "assetNum": 1,
+          "dropBoxType": 2
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070224,
+          "assetNum": 1,
+          "dropBoxType": 2
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070350,
+          "assetNum": 1,
+          "dropBoxType": 2
+        }
+      ]
+    },
+    "32": {
+      "enemyMonsterIds": [
+        "316",
+        "376"
+      ],
+      "enemyLevel": 12,
+      "fixedExpPerEnemy": 80,
+      "fixedMoneyPerEnemy": 145,
+      "materialsPerWave": [
+        {
+          "assetCategoryId": "14",
+          "assetValue": 2050003,
+          "assetNum": 3,
+          "dropBoxType": 1
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070173,
+          "assetNum": 1,
+          "dropBoxType": 2
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070225,
+          "assetNum": 1,
+          "dropBoxType": 2
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070351,
+          "assetNum": 1,
+          "dropBoxType": 2
+        }
+      ]
+    },
+    "33": {
+      "enemyMonsterIds": [
+        "376",
+        "676"
+      ],
+      "enemyLevel": 12,
+      "fixedExpPerEnemy": 80,
+      "fixedMoneyPerEnemy": 145,
+      "materialsPerWave": [
+        {
+          "assetCategoryId": "14",
+          "assetValue": 2050004,
+          "assetNum": 3,
+          "dropBoxType": 1
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070191,
+          "assetNum": 1,
+          "dropBoxType": 2
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070226,
+          "assetNum": 1,
+          "dropBoxType": 2
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070352,
+          "assetNum": 1,
+          "dropBoxType": 2
+        }
+      ]
+    },
+    "34": {
+      "enemyMonsterIds": [
+        "336",
+        "476"
+      ],
+      "enemyLevel": 14,
+      "fixedExpPerEnemy": 90,
+      "fixedMoneyPerEnemy": 160,
+      "materialsPerWave": [
+        {
+          "assetCategoryId": "14",
+          "assetValue": 2060001,
+          "assetNum": 3,
+          "dropBoxType": 1
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070167,
+          "assetNum": 1,
+          "dropBoxType": 2
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070227,
+          "assetNum": 1,
+          "dropBoxType": 2
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1076006,
+          "assetNum": 1,
+          "dropBoxType": 2
+        }
+      ]
+    },
+    "35": {
+      "enemyMonsterIds": [
+        "336",
+        "476"
+      ],
+      "enemyLevel": 14,
+      "fixedExpPerEnemy": 90,
+      "fixedMoneyPerEnemy": 160,
+      "materialsPerWave": [
+        {
+          "assetCategoryId": "14",
+          "assetValue": 2060002,
+          "assetNum": 3,
+          "dropBoxType": 1
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070168,
+          "assetNum": 1,
+          "dropBoxType": 2
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070228,
+          "assetNum": 1,
+          "dropBoxType": 2
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1076012,
+          "assetNum": 1,
+          "dropBoxType": 2
+        }
+      ]
+    },
+    "36": {
+      "enemyMonsterIds": [
+        "336",
+        "476"
+      ],
+      "enemyLevel": 14,
+      "fixedExpPerEnemy": 90,
+      "fixedMoneyPerEnemy": 160,
+      "materialsPerWave": [
+        {
+          "assetCategoryId": "14",
+          "assetValue": 2060003,
+          "assetNum": 3,
+          "dropBoxType": 1
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070169,
+          "assetNum": 1,
+          "dropBoxType": 2
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070229,
+          "assetNum": 1,
+          "dropBoxType": 2
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1076018,
+          "assetNum": 1,
+          "dropBoxType": 2
+        }
+      ]
+    },
+    "37": {
+      "enemyMonsterIds": [
+        "336",
+        "476"
+      ],
+      "enemyLevel": 14,
+      "fixedExpPerEnemy": 90,
+      "fixedMoneyPerEnemy": 160,
+      "materialsPerWave": [
+        {
+          "assetCategoryId": "14",
+          "assetValue": 2060004,
+          "assetNum": 3,
+          "dropBoxType": 1
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070170,
+          "assetNum": 1,
+          "dropBoxType": 2
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070230,
+          "assetNum": 1,
+          "dropBoxType": 2
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1076024,
+          "assetNum": 1,
+          "dropBoxType": 2
+        }
+      ]
+    },
+    "38": {
+      "enemyMonsterIds": [
+        "476",
+        "776"
+      ],
+      "enemyLevel": 14,
+      "fixedExpPerEnemy": 90,
+      "fixedMoneyPerEnemy": 160,
+      "materialsPerWave": [
+        {
+          "assetCategoryId": "14",
+          "assetValue": 2010003,
+          "assetNum": 2,
+          "dropBoxType": 1
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070171,
+          "assetNum": 1,
+          "dropBoxType": 2
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070231,
+          "assetNum": 1,
+          "dropBoxType": 2
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1076030,
+          "assetNum": 1,
+          "dropBoxType": 2
+        }
+      ]
+    },
+    "39": {
+      "enemyMonsterIds": [
+        "341",
+        "311"
+      ],
+      "enemyLevel": 16,
+      "fixedExpPerEnemy": 100,
+      "fixedMoneyPerEnemy": 175,
+      "materialsPerWave": [
+        {
+          "assetCategoryId": "14",
+          "assetValue": 2010004,
+          "assetNum": 2,
+          "dropBoxType": 1
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070172,
+          "assetNum": 1,
+          "dropBoxType": 2
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070232,
+          "assetNum": 1,
+          "dropBoxType": 2
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1076036,
+          "assetNum": 1,
+          "dropBoxType": 2
+        }
+      ]
+    },
+    "40": {
+      "enemyMonsterIds": [
+        "341",
+        "311"
+      ],
+      "enemyLevel": 16,
+      "fixedExpPerEnemy": 100,
+      "fixedMoneyPerEnemy": 175,
+      "materialsPerWave": [
+        {
+          "assetCategoryId": "14",
+          "assetValue": 2000001,
+          "assetNum": 3,
+          "dropBoxType": 1
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070175,
+          "assetNum": 1,
+          "dropBoxType": 2
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070233,
+          "assetNum": 1,
+          "dropBoxType": 2
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1076042,
+          "assetNum": 1,
+          "dropBoxType": 2
+        }
+      ]
+    },
+    "41": {
+      "enemyMonsterIds": [
+        "341",
+        "311"
+      ],
+      "enemyLevel": 16,
+      "fixedExpPerEnemy": 100,
+      "fixedMoneyPerEnemy": 175,
+      "materialsPerWave": [
+        {
+          "assetCategoryId": "14",
+          "assetValue": 2000002,
+          "assetNum": 3,
+          "dropBoxType": 1
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070176,
+          "assetNum": 1,
+          "dropBoxType": 2
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070234,
+          "assetNum": 1,
+          "dropBoxType": 2
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1076048,
+          "assetNum": 1,
+          "dropBoxType": 2
+        }
+      ]
+    },
+    "42": {
+      "enemyMonsterIds": [
+        "341",
+        "311"
+      ],
+      "enemyLevel": 16,
+      "fixedExpPerEnemy": 100,
+      "fixedMoneyPerEnemy": 175,
+      "materialsPerWave": [
+        {
+          "assetCategoryId": "14",
+          "assetValue": 2000003,
+          "assetNum": 3,
+          "dropBoxType": 1
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070178,
+          "assetNum": 1,
+          "dropBoxType": 2
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070235,
+          "assetNum": 1,
+          "dropBoxType": 2
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1076054,
+          "assetNum": 1,
+          "dropBoxType": 2
+        }
+      ]
+    },
+    "43": {
+      "enemyMonsterIds": [
+        "311",
+        "606"
+      ],
+      "enemyLevel": 16,
+      "fixedExpPerEnemy": 100,
+      "fixedMoneyPerEnemy": 175,
+      "materialsPerWave": [
+        {
+          "assetCategoryId": "14",
+          "assetValue": 2000004,
+          "assetNum": 3,
+          "dropBoxType": 1
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070179,
+          "assetNum": 1,
+          "dropBoxType": 2
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070236,
+          "assetNum": 1,
+          "dropBoxType": 2
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1076060,
+          "assetNum": 1,
+          "dropBoxType": 2
+        }
+      ]
+    },
+    "44": {
+      "enemyMonsterIds": [
+        "361",
+        "486"
+      ],
+      "enemyLevel": 18,
+      "fixedExpPerEnemy": 110,
+      "fixedMoneyPerEnemy": 190,
+      "materialsPerWave": [
+        {
+          "assetCategoryId": "14",
+          "assetValue": 2010001,
+          "assetNum": 3,
+          "dropBoxType": 1
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070180,
+          "assetNum": 1,
+          "dropBoxType": 2
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070237,
+          "assetNum": 1,
+          "dropBoxType": 2
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1076066,
+          "assetNum": 1,
+          "dropBoxType": 2
+        }
+      ]
+    },
+    "45": {
+      "enemyMonsterIds": [
+        "361",
+        "486"
+      ],
+      "enemyLevel": 18,
+      "fixedExpPerEnemy": 110,
+      "fixedMoneyPerEnemy": 190,
+      "materialsPerWave": [
+        {
+          "assetCategoryId": "14",
+          "assetValue": 2010002,
+          "assetNum": 3,
+          "dropBoxType": 1
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070181,
+          "assetNum": 1,
+          "dropBoxType": 2
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070239,
+          "assetNum": 1,
+          "dropBoxType": 2
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1076072,
+          "assetNum": 1,
+          "dropBoxType": 2
+        }
+      ]
+    },
+    "46": {
+      "enemyMonsterIds": [
+        "361",
+        "486"
+      ],
+      "enemyLevel": 18,
+      "fixedExpPerEnemy": 110,
+      "fixedMoneyPerEnemy": 190,
+      "materialsPerWave": [
+        {
+          "assetCategoryId": "14",
+          "assetValue": 2020001,
+          "assetNum": 3,
+          "dropBoxType": 1
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070182,
+          "assetNum": 1,
+          "dropBoxType": 2
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070243,
+          "assetNum": 1,
+          "dropBoxType": 2
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1076078,
+          "assetNum": 1,
+          "dropBoxType": 2
+        }
+      ]
+    },
+    "47": {
+      "enemyMonsterIds": [
+        "361",
+        "486"
+      ],
+      "enemyLevel": 18,
+      "fixedExpPerEnemy": 110,
+      "fixedMoneyPerEnemy": 190,
+      "materialsPerWave": [
+        {
+          "assetCategoryId": "14",
+          "assetValue": 2020002,
+          "assetNum": 3,
+          "dropBoxType": 1
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070183,
+          "assetNum": 1,
+          "dropBoxType": 2
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070283,
+          "assetNum": 1,
+          "dropBoxType": 2
+        }
+      ]
+    },
+    "48": {
+      "enemyMonsterIds": [
+        "486",
+        "566"
+      ],
+      "enemyLevel": 18,
+      "fixedExpPerEnemy": 110,
+      "fixedMoneyPerEnemy": 190,
+      "materialsPerWave": [
+        {
+          "assetCategoryId": "14",
+          "assetValue": 2020003,
+          "assetNum": 3,
+          "dropBoxType": 1
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070184,
+          "assetNum": 1,
+          "dropBoxType": 2
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070286,
+          "assetNum": 1,
+          "dropBoxType": 2
+        }
+      ]
+    },
+    "49": {
+      "enemyMonsterIds": [
+        "471",
+        "426"
+      ],
+      "enemyLevel": 20,
+      "fixedExpPerEnemy": 120,
+      "fixedMoneyPerEnemy": 205,
+      "materialsPerWave": [
+        {
+          "assetCategoryId": "14",
+          "assetValue": 2020004,
+          "assetNum": 3,
+          "dropBoxType": 1
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070185,
+          "assetNum": 1,
+          "dropBoxType": 2
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070288,
+          "assetNum": 1,
+          "dropBoxType": 2
+        }
+      ]
+    },
+    "50": {
+      "enemyMonsterIds": [
+        "471",
+        "426"
+      ],
+      "enemyLevel": 20,
+      "fixedExpPerEnemy": 120,
+      "fixedMoneyPerEnemy": 205,
+      "materialsPerWave": [
+        {
+          "assetCategoryId": "14",
+          "assetValue": 2030001,
+          "assetNum": 3,
+          "dropBoxType": 1
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070186,
+          "assetNum": 1,
+          "dropBoxType": 2
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070289,
+          "assetNum": 1,
+          "dropBoxType": 2
+        }
+      ]
+    },
+    "51": {
+      "enemyMonsterIds": [
+        "471",
+        "426"
+      ],
+      "enemyLevel": 20,
+      "fixedExpPerEnemy": 120,
+      "fixedMoneyPerEnemy": 205,
+      "materialsPerWave": [
+        {
+          "assetCategoryId": "14",
+          "assetValue": 2030002,
+          "assetNum": 3,
+          "dropBoxType": 1
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070187,
+          "assetNum": 1,
+          "dropBoxType": 2
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070291,
+          "assetNum": 1,
+          "dropBoxType": 2
+        }
+      ]
+    },
+    "52": {
+      "enemyMonsterIds": [
+        "471",
+        "426"
+      ],
+      "enemyLevel": 20,
+      "fixedExpPerEnemy": 120,
+      "fixedMoneyPerEnemy": 205,
+      "materialsPerWave": [
+        {
+          "assetCategoryId": "14",
+          "assetValue": 2030003,
+          "assetNum": 3,
+          "dropBoxType": 1
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070188,
+          "assetNum": 1,
+          "dropBoxType": 2
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070293,
+          "assetNum": 1,
+          "dropBoxType": 2
+        }
+      ]
+    },
+    "53": {
+      "enemyMonsterIds": [
+        "426",
+        "631"
+      ],
+      "enemyLevel": 20,
+      "fixedExpPerEnemy": 120,
+      "fixedMoneyPerEnemy": 205,
+      "materialsPerWave": [
+        {
+          "assetCategoryId": "14",
+          "assetValue": 2030004,
+          "assetNum": 3,
+          "dropBoxType": 1
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070189,
+          "assetNum": 1,
+          "dropBoxType": 2
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070303,
+          "assetNum": 1,
+          "dropBoxType": 2
+        }
+      ]
+    },
+    "54": {
+      "enemyMonsterIds": [
+        "426",
+        "531"
+      ],
+      "enemyLevel": 22,
+      "fixedExpPerEnemy": 130,
+      "fixedMoneyPerEnemy": 220,
+      "materialsPerWave": [
+        {
+          "assetCategoryId": "14",
+          "assetValue": 2040001,
+          "assetNum": 3,
+          "dropBoxType": 1
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070190,
+          "assetNum": 1,
+          "dropBoxType": 2
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070304,
+          "assetNum": 1,
+          "dropBoxType": 2
+        }
+      ]
+    },
+    "55": {
+      "enemyMonsterIds": [
+        "426",
+        "531"
+      ],
+      "enemyLevel": 22,
+      "fixedExpPerEnemy": 130,
+      "fixedMoneyPerEnemy": 220,
+      "materialsPerWave": [
+        {
+          "assetCategoryId": "14",
+          "assetValue": 2040002,
+          "assetNum": 3,
+          "dropBoxType": 1
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070192,
+          "assetNum": 1,
+          "dropBoxType": 2
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070305,
+          "assetNum": 1,
+          "dropBoxType": 2
+        }
+      ]
+    },
+    "56": {
+      "enemyMonsterIds": [
+        "426",
+        "531"
+      ],
+      "enemyLevel": 22,
+      "fixedExpPerEnemy": 130,
+      "fixedMoneyPerEnemy": 220,
+      "materialsPerWave": [
+        {
+          "assetCategoryId": "14",
+          "assetValue": 2040003,
+          "assetNum": 3,
+          "dropBoxType": 1
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070193,
+          "assetNum": 1,
+          "dropBoxType": 2
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070306,
+          "assetNum": 1,
+          "dropBoxType": 2
+        }
+      ]
+    },
+    "57": {
+      "enemyMonsterIds": [
+        "426",
+        "531"
+      ],
+      "enemyLevel": 22,
+      "fixedExpPerEnemy": 130,
+      "fixedMoneyPerEnemy": 220,
+      "materialsPerWave": [
+        {
+          "assetCategoryId": "14",
+          "assetValue": 2040004,
+          "assetNum": 3,
+          "dropBoxType": 1
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070194,
+          "assetNum": 1,
+          "dropBoxType": 2
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070311,
+          "assetNum": 1,
+          "dropBoxType": 2
+        }
+      ]
+    },
+    "58": {
+      "enemyMonsterIds": [
+        "531",
+        "716"
+      ],
+      "enemyLevel": 22,
+      "fixedExpPerEnemy": 130,
+      "fixedMoneyPerEnemy": 220,
+      "materialsPerWave": [
+        {
+          "assetCategoryId": "14",
+          "assetValue": 2050001,
+          "assetNum": 3,
+          "dropBoxType": 1
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070195,
+          "assetNum": 1,
+          "dropBoxType": 2
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070312,
+          "assetNum": 1,
+          "dropBoxType": 2
+        }
+      ]
+    },
+    "59": {
+      "enemyMonsterIds": [
+        "281",
+        "456"
+      ],
+      "enemyLevel": 24,
+      "fixedExpPerEnemy": 140,
+      "fixedMoneyPerEnemy": 235,
+      "materialsPerWave": [
+        {
+          "assetCategoryId": "14",
+          "assetValue": 2050002,
+          "assetNum": 3,
+          "dropBoxType": 1
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070196,
+          "assetNum": 1,
+          "dropBoxType": 2
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070313,
+          "assetNum": 1,
+          "dropBoxType": 2
+        }
+      ]
+    },
+    "60": {
+      "enemyMonsterIds": [
+        "281",
+        "456"
+      ],
+      "enemyLevel": 24,
+      "fixedExpPerEnemy": 140,
+      "fixedMoneyPerEnemy": 235,
+      "materialsPerWave": [
+        {
+          "assetCategoryId": "14",
+          "assetValue": 2050003,
+          "assetNum": 3,
+          "dropBoxType": 1
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070197,
+          "assetNum": 1,
+          "dropBoxType": 2
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070317,
+          "assetNum": 1,
+          "dropBoxType": 2
+        }
+      ]
+    },
+    "61": {
+      "enemyMonsterIds": [
+        "281",
+        "456"
+      ],
+      "enemyLevel": 24,
+      "fixedExpPerEnemy": 140,
+      "fixedMoneyPerEnemy": 235,
+      "materialsPerWave": [
+        {
+          "assetCategoryId": "14",
+          "assetValue": 2050004,
+          "assetNum": 3,
+          "dropBoxType": 1
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070198,
+          "assetNum": 1,
+          "dropBoxType": 2
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070320,
+          "assetNum": 1,
+          "dropBoxType": 2
+        }
+      ]
+    },
+    "62": {
+      "enemyMonsterIds": [
+        "281",
+        "456"
+      ],
+      "enemyLevel": 24,
+      "fixedExpPerEnemy": 140,
+      "fixedMoneyPerEnemy": 235,
+      "materialsPerWave": [
+        {
+          "assetCategoryId": "14",
+          "assetValue": 2060001,
+          "assetNum": 3,
+          "dropBoxType": 1
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070199,
+          "assetNum": 1,
+          "dropBoxType": 2
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070326,
+          "assetNum": 1,
+          "dropBoxType": 2
+        }
+      ]
+    },
+    "63": {
+      "enemyMonsterIds": [
+        "456",
+        "636"
+      ],
+      "enemyLevel": 24,
+      "fixedExpPerEnemy": 140,
+      "fixedMoneyPerEnemy": 235,
+      "materialsPerWave": [
+        {
+          "assetCategoryId": "14",
+          "assetValue": 2060002,
+          "assetNum": 3,
+          "dropBoxType": 1
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070200,
+          "assetNum": 1,
+          "dropBoxType": 2
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070327,
+          "assetNum": 1,
+          "dropBoxType": 2
+        }
+      ]
+    },
+    "64": {
+      "enemyMonsterIds": [
+        "316",
+        "536"
+      ],
+      "enemyLevel": 26,
+      "fixedExpPerEnemy": 150,
+      "fixedMoneyPerEnemy": 250,
+      "materialsPerWave": [
+        {
+          "assetCategoryId": "14",
+          "assetValue": 2060003,
+          "assetNum": 3,
+          "dropBoxType": 1
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070201,
+          "assetNum": 1,
+          "dropBoxType": 2
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070328,
+          "assetNum": 1,
+          "dropBoxType": 2
+        }
+      ]
+    },
+    "65": {
+      "enemyMonsterIds": [
+        "316",
+        "536"
+      ],
+      "enemyLevel": 26,
+      "fixedExpPerEnemy": 150,
+      "fixedMoneyPerEnemy": 250,
+      "materialsPerWave": [
+        {
+          "assetCategoryId": "14",
+          "assetValue": 2060004,
+          "assetNum": 3,
+          "dropBoxType": 1
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070202,
+          "assetNum": 1,
+          "dropBoxType": 2
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070329,
+          "assetNum": 1,
+          "dropBoxType": 2
+        }
+      ]
+    },
+    "66": {
+      "enemyMonsterIds": [
+        "316",
+        "536"
+      ],
+      "enemyLevel": 26,
+      "fixedExpPerEnemy": 150,
+      "fixedMoneyPerEnemy": 250,
+      "materialsPerWave": [
+        {
+          "assetCategoryId": "14",
+          "assetValue": 2010003,
+          "assetNum": 2,
+          "dropBoxType": 1
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070203,
+          "assetNum": 1,
+          "dropBoxType": 2
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070330,
+          "assetNum": 1,
+          "dropBoxType": 2
+        }
+      ]
+    },
+    "67": {
+      "enemyMonsterIds": [
+        "316",
+        "536"
+      ],
+      "enemyLevel": 26,
+      "fixedExpPerEnemy": 150,
+      "fixedMoneyPerEnemy": 250,
+      "materialsPerWave": [
+        {
+          "assetCategoryId": "14",
+          "assetValue": 2010004,
+          "assetNum": 2,
+          "dropBoxType": 1
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070204,
+          "assetNum": 1,
+          "dropBoxType": 2
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070331,
+          "assetNum": 1,
+          "dropBoxType": 2
+        }
+      ]
+    },
+    "68": {
+      "enemyMonsterIds": [
+        "536",
+        "551"
+      ],
+      "enemyLevel": 26,
+      "fixedExpPerEnemy": 150,
+      "fixedMoneyPerEnemy": 250,
+      "materialsPerWave": [
+        {
+          "assetCategoryId": "14",
+          "assetValue": 2000001,
+          "assetNum": 3,
+          "dropBoxType": 1
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070205,
+          "assetNum": 1,
+          "dropBoxType": 2
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070332,
+          "assetNum": 1,
+          "dropBoxType": 2
+        }
+      ]
+    },
+    "69": {
+      "enemyMonsterIds": [
+        "296",
+        "461"
+      ],
+      "enemyLevel": 28,
+      "fixedExpPerEnemy": 160,
+      "fixedMoneyPerEnemy": 265,
+      "materialsPerWave": [
+        {
+          "assetCategoryId": "14",
+          "assetValue": 2000002,
+          "assetNum": 3,
+          "dropBoxType": 1
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070206,
+          "assetNum": 1,
+          "dropBoxType": 2
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070333,
+          "assetNum": 1,
+          "dropBoxType": 2
+        }
+      ]
+    },
+    "70": {
+      "enemyMonsterIds": [
+        "296",
+        "461"
+      ],
+      "enemyLevel": 28,
+      "fixedExpPerEnemy": 160,
+      "fixedMoneyPerEnemy": 265,
+      "materialsPerWave": [
+        {
+          "assetCategoryId": "14",
+          "assetValue": 2000003,
+          "assetNum": 3,
+          "dropBoxType": 1
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070207,
+          "assetNum": 1,
+          "dropBoxType": 2
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070334,
+          "assetNum": 1,
+          "dropBoxType": 2
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 4000001,
+          "assetNum": 1,
+          "dropBoxType": 2
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 5000001,
+          "assetNum": 1,
+          "dropBoxType": 2
+        }
+      ]
+    },
+    "71": {
+      "enemyMonsterIds": [
+        "296",
+        "461"
+      ],
+      "enemyLevel": 28,
+      "fixedExpPerEnemy": 160,
+      "fixedMoneyPerEnemy": 265,
+      "materialsPerWave": [
+        {
+          "assetCategoryId": "14",
+          "assetValue": 2000004,
+          "assetNum": 3,
+          "dropBoxType": 1
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070208,
+          "assetNum": 1,
+          "dropBoxType": 2
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070335,
+          "assetNum": 1,
+          "dropBoxType": 2
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 4000002,
+          "assetNum": 1,
+          "dropBoxType": 2
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 5000002,
+          "assetNum": 1,
+          "dropBoxType": 2
+        }
+      ]
+    },
+    "72": {
+      "enemyMonsterIds": [
+        "296",
+        "461"
+      ],
+      "enemyLevel": 28,
+      "fixedExpPerEnemy": 160,
+      "fixedMoneyPerEnemy": 265,
+      "materialsPerWave": [
+        {
+          "assetCategoryId": "14",
+          "assetValue": 2010001,
+          "assetNum": 3,
+          "dropBoxType": 1
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070209,
+          "assetNum": 1,
+          "dropBoxType": 2
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070336,
+          "assetNum": 1,
+          "dropBoxType": 2
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 4000003,
+          "assetNum": 1,
+          "dropBoxType": 2
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 5000003,
+          "assetNum": 1,
+          "dropBoxType": 2
+        }
+      ]
+    },
+    "73": {
+      "enemyMonsterIds": [
+        "461",
+        "621"
+      ],
+      "enemyLevel": 28,
+      "fixedExpPerEnemy": 160,
+      "fixedMoneyPerEnemy": 265,
+      "materialsPerWave": [
+        {
+          "assetCategoryId": "14",
+          "assetValue": 2010002,
+          "assetNum": 3,
+          "dropBoxType": 1
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070210,
+          "assetNum": 1,
+          "dropBoxType": 2
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070337,
+          "assetNum": 1,
+          "dropBoxType": 2
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 4000004,
+          "assetNum": 1,
+          "dropBoxType": 2
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 5000004,
+          "assetNum": 1,
+          "dropBoxType": 2
+        }
+      ]
+    },
+    "74": {
+      "enemyMonsterIds": [
+        "356",
+        "516"
+      ],
+      "enemyLevel": 30,
+      "fixedExpPerEnemy": 170,
+      "fixedMoneyPerEnemy": 280,
+      "materialsPerWave": [
+        {
+          "assetCategoryId": "14",
+          "assetValue": 2020001,
+          "assetNum": 3,
+          "dropBoxType": 1
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070211,
+          "assetNum": 1,
+          "dropBoxType": 2
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070338,
+          "assetNum": 1,
+          "dropBoxType": 2
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 4000005,
+          "assetNum": 1,
+          "dropBoxType": 2
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 5000005,
+          "assetNum": 1,
+          "dropBoxType": 2
+        }
+      ]
+    },
+    "75": {
+      "enemyMonsterIds": [
+        "356",
+        "516"
+      ],
+      "enemyLevel": 30,
+      "fixedExpPerEnemy": 170,
+      "fixedMoneyPerEnemy": 280,
+      "materialsPerWave": [
+        {
+          "assetCategoryId": "14",
+          "assetValue": 2020002,
+          "assetNum": 3,
+          "dropBoxType": 1
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070212,
+          "assetNum": 1,
+          "dropBoxType": 2
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070339,
+          "assetNum": 1,
+          "dropBoxType": 2
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 4000006,
+          "assetNum": 1,
+          "dropBoxType": 2
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 5000006,
+          "assetNum": 1,
+          "dropBoxType": 2
+        }
+      ]
+    },
+    "76": {
+      "enemyMonsterIds": [
+        "356",
+        "516"
+      ],
+      "enemyLevel": 30,
+      "fixedExpPerEnemy": 170,
+      "fixedMoneyPerEnemy": 280,
+      "materialsPerWave": [
+        {
+          "assetCategoryId": "14",
+          "assetValue": 2020003,
+          "assetNum": 3,
+          "dropBoxType": 1
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070213,
+          "assetNum": 1,
+          "dropBoxType": 2
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070340,
+          "assetNum": 1,
+          "dropBoxType": 2
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 4000007,
+          "assetNum": 1,
+          "dropBoxType": 2
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 5000007,
+          "assetNum": 1,
+          "dropBoxType": 2
+        }
+      ]
+    },
+    "77": {
+      "enemyMonsterIds": [
+        "356",
+        "516"
+      ],
+      "enemyLevel": 30,
+      "fixedExpPerEnemy": 170,
+      "fixedMoneyPerEnemy": 280,
+      "materialsPerWave": [
+        {
+          "assetCategoryId": "14",
+          "assetValue": 2020004,
+          "assetNum": 3,
+          "dropBoxType": 1
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070214,
+          "assetNum": 1,
+          "dropBoxType": 2
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070341,
+          "assetNum": 1,
+          "dropBoxType": 2
+        }
+      ]
+    },
+    "78": {
+      "enemyMonsterIds": [
+        "516",
+        "661"
+      ],
+      "enemyLevel": 30,
+      "fixedExpPerEnemy": 170,
+      "fixedMoneyPerEnemy": 280,
+      "materialsPerWave": [
+        {
+          "assetCategoryId": "14",
+          "assetValue": 2030001,
+          "assetNum": 3,
+          "dropBoxType": 1
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070215,
+          "assetNum": 1,
+          "dropBoxType": 2
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070342,
+          "assetNum": 1,
+          "dropBoxType": 2
+        }
+      ]
+    },
+    "79": {
+      "enemyMonsterIds": [
+        "286",
+        "411"
+      ],
+      "enemyLevel": 30,
+      "fixedExpPerEnemy": 180,
+      "fixedMoneyPerEnemy": 295,
+      "materialsPerWave": [
+        {
+          "assetCategoryId": "14",
+          "assetValue": 2030002,
+          "assetNum": 3,
+          "dropBoxType": 1
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070216,
+          "assetNum": 1,
+          "dropBoxType": 2
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070343,
+          "assetNum": 1,
+          "dropBoxType": 2
+        }
+      ]
+    },
+    "80": {
+      "enemyMonsterIds": [
+        "286",
+        "411"
+      ],
+      "enemyLevel": 30,
+      "fixedExpPerEnemy": 180,
+      "fixedMoneyPerEnemy": 295,
+      "materialsPerWave": [
+        {
+          "assetCategoryId": "14",
+          "assetValue": 2030003,
+          "assetNum": 3,
+          "dropBoxType": 1
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070217,
+          "assetNum": 1,
+          "dropBoxType": 2
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070344,
+          "assetNum": 1,
+          "dropBoxType": 2
+        }
+      ]
+    },
+    "81": {
+      "enemyMonsterIds": [
+        "286",
+        "411"
+      ],
+      "enemyLevel": 30,
+      "fixedExpPerEnemy": 180,
+      "fixedMoneyPerEnemy": 295,
+      "materialsPerWave": [
+        {
+          "assetCategoryId": "14",
+          "assetValue": 2030004,
+          "assetNum": 3,
+          "dropBoxType": 1
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070218,
+          "assetNum": 1,
+          "dropBoxType": 2
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070345,
+          "assetNum": 1,
+          "dropBoxType": 2
+        }
+      ]
+    },
+    "82": {
+      "enemyMonsterIds": [
+        "286",
+        "411"
+      ],
+      "enemyLevel": 30,
+      "fixedExpPerEnemy": 180,
+      "fixedMoneyPerEnemy": 295,
+      "materialsPerWave": [
+        {
+          "assetCategoryId": "14",
+          "assetValue": 2040001,
+          "assetNum": 3,
+          "dropBoxType": 1
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070219,
+          "assetNum": 1,
+          "dropBoxType": 2
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070346,
+          "assetNum": 1,
+          "dropBoxType": 2
+        }
+      ]
+    },
+    "83": {
+      "enemyMonsterIds": [
+        "411",
+        "741"
+      ],
+      "enemyLevel": 30,
+      "fixedExpPerEnemy": 180,
+      "fixedMoneyPerEnemy": 295,
+      "materialsPerWave": [
+        {
+          "assetCategoryId": "14",
+          "assetValue": 2040002,
+          "assetNum": 3,
+          "dropBoxType": 1
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070220,
+          "assetNum": 1,
+          "dropBoxType": 2
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 1070347,
+          "assetNum": 1,
+          "dropBoxType": 2
+        },
+        {
+          "assetCategoryId": "14",
+          "assetValue": 4000008,
+          "assetNum": 1,
+          "dropBoxType": 2
+        }
+      ]
+    }
+  }
+}

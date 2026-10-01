@@ -1,0 +1,12 @@
+{
+  "provenance": "Local reconstruction, not recovered production encounter data. FirstTutorial messages78/79 require Tentomon in the middle for revival. Patamon and Goblimon are local choices. Enemy speed80 puts them after Agumon90/Patamon81 but before Tentomon77. One opening attack targets highest defense (Tentomon); that enemy then uses support moves for the remainder of the tutorial. Base monster statistics and skills come from recovered masters; encounter overrides are local tutorial choreography.",
+  "dungeonId": "9001",
+  "worldId": "4",
+  "companionMonsterIds": ["176", "196"],
+  "enemyMonsterIds": ["151", "151", "151"],
+  "fixedExpPerEnemy": 10,
+  "fixedMoneyPerEnemy": 100,
+  "enemySpeed": 80,
+  "revivalEnemyIndex": 0,
+  "revivalEnemyAttack": 9000
+}

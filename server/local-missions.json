@@ -1,0 +1,264 @@
+{
+  "basis": "Original mission lists, thresholds and rewards were not recovered. These explicit local missions use original protocol/categories and verified server operation counters. Daily tasks reset at UTC+8 midnight, do not retroactively count activity before first local-day request, and grant gifts valid30 days, following original help13. Only thresholds/rewards, reset timezone and pagination are local choices. Total tasks use persisted counters and can acknowledge existing progress only when the player claims them. Gift page size20, unsupported asset types remain rejected.",
+  "dailyUtcOffsetHours": 8,
+  "giftExpiryDays": 30,
+  "giftPageSize": 20,
+  "missions": [
+    {
+      "id": 10001,
+      "group": "daily",
+      "category": 1,
+      "counter": "normal_clear_count",
+      "target": 1,
+      "name": "每日探索",
+      "detail": "今天赢得1次普通战斗",
+      "rewards": [
+        {
+          "assetCategoryId": "4",
+          "assetValue": "0",
+          "assetNum": "500"
+        }
+      ]
+    },
+    {
+      "id": 10002,
+      "group": "daily",
+      "category": 1,
+      "counter": "normal_clear_count",
+      "target": 3,
+      "name": "每日探索进阶",
+      "detail": "今天赢得3次普通战斗",
+      "rewards": [
+        {
+          "assetCategoryId": "2",
+          "assetValue": "0",
+          "assetNum": "1"
+        }
+      ]
+    },
+    {
+      "id": 10003,
+      "group": "daily",
+      "category": 4,
+      "counter": "normal_meat_used",
+      "target": 5,
+      "name": "每日喂食",
+      "detail": "今天累计喂食5份肉",
+      "rewards": [
+        {
+          "assetCategoryId": "13",
+          "assetValue": "0",
+          "assetNum": "5"
+        }
+      ]
+    },
+    {
+      "id": 10004,
+      "group": "daily",
+      "category": 3,
+      "counter": "normal_capture_count",
+      "target": 1,
+      "name": "每日捕捉",
+      "detail": "今天进行1次普通成长或Link捕捉",
+      "rewards": [
+        {
+          "assetCategoryId": "3",
+          "assetValue": "0",
+          "assetNum": "60"
+        }
+      ]
+    },
+    {
+      "id": 10005,
+      "group": "daily",
+      "category": 1,
+      "counter": "normal_clear_count",
+      "target": 5,
+      "name": "每日火属性材料",
+      "detail": "今天赢得5次普通战斗",
+      "rewards": [
+        {
+          "assetCategoryId": "14",
+          "assetValue": "2010003",
+          "assetNum": "5"
+        }
+      ]
+    },
+    {
+      "id": 20001,
+      "group": "total",
+      "category": 3,
+      "counter": "normal_capture_count",
+      "target": 10,
+      "name": "捕捉十位伙伴",
+      "detail": "累计进行10次普通成长或Link捕捉",
+      "rewards": [
+        {
+          "assetCategoryId": "2",
+          "assetValue": "0",
+          "assetNum": "5"
+        }
+      ]
+    },
+    {
+      "id": 20002,
+      "group": "total",
+      "category": 1,
+      "counter": "normal_clear_count",
+      "target": 20,
+      "name": "火属性进化准备",
+      "detail": "累计赢得20次普通战斗",
+      "rewards": [
+        {
+          "assetCategoryId": "14",
+          "assetValue": "2010004",
+          "assetNum": "5"
+        }
+      ]
+    },
+    {
+      "id": 20003,
+      "group": "total",
+      "category": 5,
+      "counter": "normal_fusion_count",
+      "target": 5,
+      "name": "强化入门",
+      "detail": "累计进行5次强化",
+      "rewards": [
+        {
+          "assetCategoryId": "4",
+          "assetValue": "0",
+          "assetNum": "2000"
+        }
+      ]
+    },
+    {
+      "id": 30001,
+      "group": "beginner",
+      "category": 1,
+      "counter": "normal_clear_count",
+      "target": 1,
+      "name": "首次普通胜利",
+      "detail": "赢得1次普通战斗",
+      "rewards": [
+        {
+          "assetCategoryId": "4",
+          "assetValue": "0",
+          "assetNum": "1000"
+        }
+      ]
+    },
+    {
+      "id": 30002,
+      "group": "beginner",
+      "category": 6,
+      "counter": "normal_evolution_count",
+      "target": 1,
+      "name": "首次普通进化",
+      "detail": "进行1次普通进化",
+      "rewards": [
+        {
+          "assetCategoryId": "14",
+          "assetValue": "2010002",
+          "assetNum": "10"
+        }
+      ]
+    },
+    {
+      "id": 30003,
+      "group": "beginner",
+      "category": 4,
+      "counter": "normal_meat_used",
+      "target": 10,
+      "name": "开始培养",
+      "detail": "累计喂食10份肉",
+      "rewards": [
+        {
+          "assetCategoryId": "13",
+          "assetValue": "0",
+          "assetNum": "10"
+        }
+      ]
+    },
+    {
+      "id": 40001,
+      "group": "midrange",
+      "category": 8,
+      "counter": "normal_research_count",
+      "target": 1,
+      "name": "首次研究",
+      "detail": "进行1次研究并产生数码蛋",
+      "rewards": [
+        {
+          "assetCategoryId": "4",
+          "assetValue": "0",
+          "assetNum": "5000"
+        }
+      ]
+    },
+    {
+      "id": 40002,
+      "group": "midrange",
+      "category": 6,
+      "counter": "normal_evolution_count",
+      "target": 3,
+      "name": "继续进化",
+      "detail": "累计进行3次普通进化",
+      "rewards": [
+        {
+          "assetCategoryId": "14",
+          "assetValue": "2010003",
+          "assetNum": "10"
+        }
+      ]
+    },
+    {
+      "id": 10006,
+      "group": "daily",
+      "category": 1,
+      "counter": "normal_clear_count",
+      "target": 1,
+      "name": "每日取外补丁",
+      "detail": "今天赢得1次普通战斗；本地奖励",
+      "rewards": [
+        {
+          "assetCategoryId": "6",
+          "assetValue": "7",
+          "assetNum": "1"
+        }
+      ]
+    },
+    {
+      "id": 10007,
+      "group": "daily",
+      "category": 1,
+      "counter": "normal_clear_count",
+      "target": 3,
+      "name": "每日扩张补丁",
+      "detail": "今天赢得3次普通战斗；本地奖励",
+      "rewards": [
+        {
+          "assetCategoryId": "6",
+          "assetValue": "6",
+          "assetNum": "5"
+        }
+      ]
+    },
+    {
+      "id": 10008,
+      "group": "daily",
+      "category": 1,
+      "counter": "normal_clear_count",
+      "target": 5,
+      "name": "每日基础芯片",
+      "detail": "今天赢得5次普通战斗；本地奖励",
+      "rewards": [
+        {
+          "assetCategoryId": "17",
+          "assetValue": "1",
+          "assetNum": "1"
+        }
+      ]
+    }
+  ]
+}
